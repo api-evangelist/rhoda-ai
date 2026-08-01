@@ -1,7 +1,24 @@
 aid: rhoda-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rhoda-ai.png
 name: Rhoda Ai
-description: Rhoda Ai is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Rhoda AI develops robotic intelligence for real-world industrial and commercial
+  environments, building general-purpose foundation models that adapt to the variability
+  of physical work through its Direct Video Action model. Its robots handle tasks across
+  automotive, manufacturing, logistics, and ecommerce, including returns processing,
+  component handling, and material breakdown. The company is a venture-backed portfolio
+  company of Mayfield and currently publishes no public developer API, SDK, or documentation
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/rhoda-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Robotics
+- Artificial Intelligence
+- Foundation Models
+- Industrial Automation
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +45,14 @@ maintainers:
 common:
 - type: Website
   url: https://rhoda.ai
+- type: Blog
+  url: https://rhoda.ai/research/direct-video-action
+- type: Support
+  url: https://rhoda.ai/contact
+- type: DomainSecurity
+  url: security/rhoda-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
